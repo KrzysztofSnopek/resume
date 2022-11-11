@@ -1,0 +1,47 @@
+
+
+nav {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "logo Home About Works Contact . . . . . . Download";
+    background-color: black;
+    color: aliceblue;
+    width: min(100%, 70rem);
+    padding: 15px 0px;
+    /* grid-auto-columns: minmax(auto, 80px); */
+}
+
+.grid-item:nth-child(1) {
+    margin-left: 20px;
+    grid-area: logo;
+  }
+
+.grid-item:nth-child(2) {
+    grid-area: Home;
+  }
+
+.grid-item:nth-child(3) {
+    grid-area: About;
+  }
+
+.grid-item:nth-child(4) {
+    grid-area: Works;
+  }
+  
+.grid-item:nth-child(5) {
+  grid-area: Contact;
+}
+
+.grid-item:nth-child(6) {
+    
+  }
+
+.grid-item:nth-child(7) {
+    grid-area: Download;
+  }
+
+  .last-item {
+    align-self: flex-end;
+  }
