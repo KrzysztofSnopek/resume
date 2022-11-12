@@ -1,10 +1,9 @@
-import React from 'react'
-import { TopNavbar } from './TopNavbar'
+import '../Styles/About.css'
 
 export function About() {
   return (
     <>
-        <div>About</div>
+        <div className='about'>About</div>
     </>
   )
 }

@@ -1,7 +1,7 @@
-import React from 'react'
+import '../Styles/Works.css'
 
 export function Works() {
   return (
-    <div>Works</div>
+    <div className='works'>Works</div>
   )
 }

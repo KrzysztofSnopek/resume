@@ -1,7 +1,7 @@
-import React from 'react'
+import '../Styles/Contact.css'
 
 export function Contact() {
   return (
-    <div>Contact</div>
+    <div className='contact'>Contact</div>
   )
 }
