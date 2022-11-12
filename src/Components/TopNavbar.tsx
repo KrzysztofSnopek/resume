@@ -5,6 +5,7 @@ import { About } from './About'
 import { Works } from './Works'
 import { Contact } from './Contact'
 import { Home } from './Home'
+import { ScrollToTopButton } from './ScrollToTopButton'
 
 
 export function TopNavbar() {
@@ -21,7 +22,9 @@ export function TopNavbar() {
   }
 
   return (
-    <>
+    <div>
+      <ScrollToTopButton />
+      
       <nav className='nav-grid'>
         <div className='grid-item'>
           Logo
@@ -56,6 +59,6 @@ export function TopNavbar() {
       <div ref={contactRef}>
         <Contact />
       </div>
-    </>
+    </div>
   )
 }
