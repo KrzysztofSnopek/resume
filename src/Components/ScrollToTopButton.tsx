@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { FiChevronsUp } from 'react-icons/fi'
 import '../Styles/ScrollToTopButton.css'
 

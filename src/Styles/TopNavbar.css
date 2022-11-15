@@ -1,5 +1,3 @@
-
-
 nav {
     font-family: 'Fredoka One', cursive;
     font-family: 'Raleway', sans-serif;
@@ -40,3 +38,28 @@ nav {
   .last-item {
     align-self: flex-end;
   }
+
+.nav-btn {
+  background: none;
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(73, 73, 199);
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.nav-btn:hover {
+  color: rgb(73, 73, 199);
+  -webkit-text-stroke-color: aliceblue;
+  text-shadow: 0 0 15px aliceblue;
+}
+
+.nav-non-btn {
+  background: none;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 2em;
+}

@@ -1,11 +1,12 @@
-import { useRef, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { useRef } from 'react'
 import '../Styles/TopNavbar.css'
 import { About } from './About'
 import { Works } from './Works'
 import { Contact } from './Contact'
 import { Home } from './Home'
 import { ScrollToTopButton } from './ScrollToTopButton'
+import { DownloadButton } from './DownloadButton'
+import { GiProgression } from 'react-icons/gi'
 
 
 export function TopNavbar() {
@@ -27,23 +28,23 @@ export function TopNavbar() {
       
       <nav className='nav-grid'>
         <div className='grid-item'>
-          Logo
+          <button className='nav-non-btn'><GiProgression /></button>
         </div>
         <div className='grid-item'>
-          <button onClick={() => scrollToComponent(homeRef)}>Home</button>
+          <button className='nav-btn' onClick={() => scrollToComponent(homeRef)}>Home</button>
         </div>
         <div className='grid-item'>
-          <button onClick={() => scrollToComponent(aboutRef)}>About</button>
+          <button className='nav-btn' onClick={() => scrollToComponent(aboutRef)}>About</button>
         </div>
         <div className='grid-item'>
-          <button onClick={() => scrollToComponent(worksRef)}>Works</button>
+          <button className='nav-btn' onClick={() => scrollToComponent(worksRef)}>Works</button>
         </div>
         <div className='grid-item'>
-          <button onClick={() => scrollToComponent(contactRef)}>Contact</button>
+          <button className='nav-btn' onClick={() => scrollToComponent(contactRef)}>Contact</button>
         </div>  
         <div className='grid-item'></div>
         <div className='grid-item last-item'>
-          Download CV
+          <DownloadButton />
         </div>
       </nav>
 
