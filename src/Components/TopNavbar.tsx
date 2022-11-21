@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import '../Styles/TopNavbar.css'
 import { About } from './About'
 import { Works } from './Works'
@@ -6,14 +6,19 @@ import { Contact } from './Contact'
 import { Home } from './Home'
 import { ScrollToTopButton } from './ScrollToTopButton'
 import { DownloadButton } from './DownloadButton'
-import { GiProgression } from 'react-icons/gi'
-
 
 export function TopNavbar() {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const worksRef = useRef(null);
   const contactRef = useRef(null);
+  const [buttonClass, setButtonClass] = useState(false)
+
+  function handleClick () {
+    setButtonClass(buttonClass => !buttonClass)
+  }
+
+  let toggleClassName = buttonClass ? 'active' : ""
 
   const scrollToComponent = (compRef: any) => {
     window.scrollTo({
@@ -25,26 +30,36 @@ export function TopNavbar() {
   return (
     <div>
       <ScrollToTopButton />
-      
-      <nav className='nav-grid'>
-        <div className='grid-item'>
-          <button className='nav-non-btn'><GiProgression /></button>
+
+      <nav className='navbar'>
+        <div>
+          <a href='#' className='nav-non-btn'>Krzysztof Snopek</a>
         </div>
-        <div className='grid-item'>
-          <button className='nav-btn' onClick={() => scrollToComponent(homeRef)}>Home</button>
-        </div>
-        <div className='grid-item'>
-          <button className='nav-btn' onClick={() => scrollToComponent(aboutRef)}>About</button>
-        </div>
-        <div className='grid-item'>
-          <button className='nav-btn' onClick={() => scrollToComponent(worksRef)}>Works</button>
-        </div>
-        <div className='grid-item'>
-          <button className='nav-btn' onClick={() => scrollToComponent(contactRef)}>Contact</button>
-        </div>  
-        <div className='grid-item'></div>
-        <div className='grid-item last-item'>
-          <DownloadButton />
+
+        <a className={`toggle-btn ${toggleClassName}`} onClick={handleClick}>
+          <span className="single-bar"></span>
+          <span className="single-bar"></span>
+          <span className="single-bar"></span>
+        </a>
+
+        <div className={`nav-links ${toggleClassName}`}>
+          <ul>
+            <li>
+               <a className='nav-btn' onClick={() => scrollToComponent(homeRef)}>Home</a>
+            </li>
+            <li>
+              <a className='nav-btn' onClick={() => scrollToComponent(aboutRef)}>About</a>
+            </li>
+            <li>
+              <a className='nav-btn' onClick={() => scrollToComponent(worksRef)}>Works</a>
+            </li>
+            <li>
+              <a className='nav-btn' onClick={() => scrollToComponent(contactRef)}>Contact</a>
+            </li>  
+            <li>
+              <DownloadButton />   
+            </li>        
+          </ul>
         </div>
       </nav>
 

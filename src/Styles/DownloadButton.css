@@ -1,4 +1,4 @@
-button {
+a {
     background: none;
     font-weight: 800;
     font-size: 2em;
@@ -13,7 +13,7 @@ a {
 }
 
   
-a:hover {
+.nav-btn:hover {
     color: rgb(73, 73, 199);
     -webkit-text-stroke-color: aliceblue;
     text-shadow: 0 0 15px aliceblue;
