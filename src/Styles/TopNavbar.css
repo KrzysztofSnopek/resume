@@ -12,6 +12,9 @@ nav {
     padding: 15px 0px;
     font-weight: 800;
     font-size: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
     /* grid-auto-columns: minmax(auto, 80px); */
 }
 
@@ -46,6 +49,14 @@ nav {
   background-color: aliceblue;
   border: 2px solid rgb(73, 73, 199);
   border-radius: 10px;
+}
+
+.page-content {
+  padding-top: 75px;
+}
+
+.page-content.active{
+   padding-top: 300px; 
 }
 
 @media (max-width: 1199px) {

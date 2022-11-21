@@ -31,7 +31,7 @@ export function TopNavbar() {
     <div>
       <ScrollToTopButton />
 
-      <nav className='navbar'>
+      <nav className={`navbar ${toggleClassName}`}>
         <div>
           <a href='#' className='nav-non-btn'>Krzysztof Snopek</a>
         </div>
@@ -63,17 +63,19 @@ export function TopNavbar() {
         </div>
       </nav>
 
-      <div ref={homeRef}>
-        <Home />
-      </div>
-      <div ref={aboutRef}>
-        <About />
-      </div>
-      <div ref={worksRef}>
-        <Works />
-      </div>
-      <div ref={contactRef}>
-        <Contact />
+      <div className={`page-content ${toggleClassName}`}>
+        <div ref={homeRef}>
+          <Home />
+        </div>
+        <div ref={aboutRef}>
+          <About />
+        </div>
+        <div ref={worksRef}>
+          <Works />
+        </div>
+        <div ref={contactRef}>
+          <Contact />
+        </div>
       </div>
     </div>
   )
