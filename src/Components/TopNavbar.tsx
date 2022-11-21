@@ -28,7 +28,7 @@ export function TopNavbar() {
   }
 
   return (
-    <div>
+    <div className='whole-app'>
       <ScrollToTopButton />
 
       <nav className={`navbar ${toggleClassName}`}>

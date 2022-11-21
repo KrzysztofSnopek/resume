@@ -1,3 +1,7 @@
+.whole-app {
+  min-width: 430px;
+}
+
 nav {
     font-family: 'Fredoka One', cursive;
     font-family: 'Raleway', sans-serif;
@@ -12,9 +16,10 @@ nav {
     padding: 15px 0px;
     font-weight: 800;
     font-size: 1rem;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
+    min-width: 430px;
     /* grid-auto-columns: minmax(auto, 80px); */
 }
 
@@ -51,15 +56,7 @@ nav {
   border-radius: 10px;
 }
 
-.page-content {
-  padding-top: 75px;
-}
-
-.page-content.active{
-   padding-top: 300px; 
-}
-
-@media (max-width: 1199px) {
+@media (max-width: 1215px) {
   .toggle-btn {
     display: flex;
   }
@@ -92,7 +89,12 @@ nav {
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 430px) {
+  .whole-app {
+    overflow-x: scroll;
+    width: 430px
+  }
+
   .toggle-btn {
     right: 0px;
   }
