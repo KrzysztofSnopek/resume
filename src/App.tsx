@@ -1,9 +1,10 @@
 import { TopNavbar } from './Components/TopNavbar'
+import './Styles/App.css'
 
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <TopNavbar />
     </div>
   );
