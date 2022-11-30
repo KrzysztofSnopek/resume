@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../Styles/ImageSlides.css'
+import { slideImage, imgContainer, arrow, slide } from "../Styles/StyleImageSlider";
 
 const ImageSlider = ({ Slides }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,27 +17,23 @@ const ImageSlider = ({ Slides }: any) => {
   };
 
   const slideBackground = {
-    backgroundColor: 'yellow',
-    height: '500px',
-    maxWidth: '700px',
+    ...slideImage,
     backgroundImage: `url(${Slides[currentIndex]})`,
-    backgroundSize: 'contain',
-    backgroundRepeat: 'no-repeat',
-    // display: 'flex',
-    // justifySelf: 'center'
   }
 
   return (
-    <div className="slider">
-      <div className="img-box">
-        <div className="left-arrow" onClick={goToPrevious}>
-          ❰
+    <div style={imgContainer}>
+        <div style={slide} className="slide-styles">
+          <div style={arrow} onClick={goToPrevious}>
+            ❰
+          </div>
+
+          <div style={slideBackground}></div>
+
+          <div style={arrow} onClick={goToNext}>
+            ❱
+          </div>
         </div>
-        <div className="right-arrow" onClick={goToNext}>
-          ❱
-        </div>
-        <div style={slideBackground} className="slide-styles"></div>
-      </div>
     </div>  
   );
 };
