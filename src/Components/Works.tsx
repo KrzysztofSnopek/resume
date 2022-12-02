@@ -4,7 +4,7 @@ import { fetchApi1, stock1, stock2, stock3, stock4, todo1, todo2 } from './Image
 
 export function Works() {
 
-  const updatedSlides: object[] = [
+  const updatedSlides: any[][] = [
     [stock1, stock2, stock3, stock4],
     [todo1, todo2],
     [fetchApi1]

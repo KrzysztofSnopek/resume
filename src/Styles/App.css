@@ -3,4 +3,5 @@
     background-image: url("../Images/moroccan-flower.png");
     background-blend-mode: multiply;
     padding-bottom: 8rem;
+    scroll-padding-top: 200px;
 }

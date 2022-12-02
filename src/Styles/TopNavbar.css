@@ -23,6 +23,10 @@ nav {
     /* grid-auto-columns: minmax(auto, 80px); */
 }
 
+.section {
+  scroll-margin-top: 100px;
+}
+
 .nav-non-btn {
   padding-left: 1rem;
 }

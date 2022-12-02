@@ -3,9 +3,9 @@ import { FiChevronsUp } from 'react-icons/fi'
 import '../Styles/ScrollToTopButton.css'
 
 export const ScrollToTopButton = () => {
-    const [showButton, setShowButton] = useState(false);
+    const [showButton, setShowButton] = useState<boolean>(false);
 
-    const checkIfScrollTop = () => {
+    const checkIfScrollTop = (): void => {
         if (window.scrollY > 200) {
             setShowButton(true)
         } 
@@ -14,7 +14,7 @@ export const ScrollToTopButton = () => {
         }        
     }
 
-    const scrollTop = () => {
+    const scrollTop = (): void => {
         window.scrollTo({
           top: 0,
           behavior: "smooth"

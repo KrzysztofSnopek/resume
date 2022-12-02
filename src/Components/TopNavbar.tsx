@@ -22,9 +22,10 @@ export function TopNavbar() {
 
   const scrollToComponent = (compRef: any) => {
     window.scrollTo({
-      top: compRef.current.offsetTop,
+      top: compRef.current.offsetTop-300,
       behavior: "smooth"
     })
+    setButtonClass(false)
   }
 
   return (
@@ -64,16 +65,16 @@ export function TopNavbar() {
       </nav>
 
       <div className={`page-content ${toggleClassName}`}>
-        <div ref={homeRef}>
+        <div className='section' ref={homeRef}>
           <Home />
         </div>
-        <div ref={aboutRef}>
+        <div className='section' ref={aboutRef}>
           <About />
         </div>
-        <div ref={worksRef}>
+        <div className='section' ref={worksRef}>
           <Works />
         </div>
-        <div ref={contactRef}>
+        <div className='section' ref={contactRef}>
           <Contact />
         </div>
       </div>

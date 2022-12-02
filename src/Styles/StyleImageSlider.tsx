@@ -1,6 +1,6 @@
 export const imgContainer = {
     padding: '1rem 0',
-    marginLeft: '3rem',
+    margin: '0 3rem',
 }
 
 export const slide = {
@@ -13,18 +13,18 @@ export const slide = {
   justifyContent: 'space-between',
   alignItems: 'center',
   padding: '2rem 1rem',
-  borderRadius: '1rem'
+  borderRadius: '1rem',
 }
 export const slideImage = {
   height: '500px',
   width: '700px',
   backgroundSize: 'contain',
   backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'center'
+  backgroundPosition: 'center',
 }
 export const arrow = {
   cursor: 'pointer',
   fontSize: '35px',
-  padding: '1rem'
+  padding: '1rem',
 }
 
