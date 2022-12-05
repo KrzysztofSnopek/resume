@@ -21,11 +21,19 @@ export function TopNavbar() {
   let toggleClassName = buttonClass ? 'active' : ""
 
   const scrollToComponent = (compRef: any) => {
+    if (buttonClass === true){
+      window.scrollTo({
+        top: compRef.current.offsetTop-300,
+        behavior: "smooth"
+      })
+      setButtonClass(false)
+    } 
+    else {
     window.scrollTo({
-      top: compRef.current.offsetTop-300,
+      top: compRef.current.offsetTop-75,
       behavior: "smooth"
     })
-    setButtonClass(false)
+    }
   }
 
   return (
