@@ -1,22 +1,26 @@
 export const imgContainer = {
     padding: '1rem 0',
-    margin: '0 3rem',
+    margin: '0 2rem',
+    display: 'flex',
+    justifyContent: 'center'
 }
 
 export const slide = {
   backgroundColor: 'yellow',
   minHeight: '500px',
+  height: '500px',
   maxWidth: '700px',
   backgroundSize: 'contain',
   backgroundRepeat: 'no-repeat',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  padding: '2rem 1rem',
+  padding: '2rem 0',
   borderRadius: '1rem',
 }
 export const slideImage = {
   height: '500px',
+  minHeight: '500px',
   width: '700px',
   backgroundSize: 'contain',
   backgroundRepeat: 'no-repeat',
@@ -25,6 +29,6 @@ export const slideImage = {
 export const arrow = {
   cursor: 'pointer',
   fontSize: '35px',
-  padding: '1rem',
+  padding: '0.5rem',
 }
 

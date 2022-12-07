@@ -8,9 +8,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* display: grid;
-    grid-template-areas: 
-    "logo Home About Works Contact . . . . . . . . Download"; */
     background-color: black;
     color: aliceblue;
     padding: 15px 0px;
@@ -20,7 +17,6 @@ nav {
     top: 0;
     width: 100%;
     min-width: 430px;
-    /* grid-auto-columns: minmax(auto, 80px); */
 }
 
 .section {
@@ -126,44 +122,3 @@ nav {
   text-decoration: none;
 }
 
-/* @media (max-width: 980px) {
-  nav {
-
-    grid-template-areas: 
-    "logo"
-    "Home"
-    "About"
-    "Works"
-    "Contact"
-    "Download";
-  }
-}
-
-.grid-item:nth-child(1) {
-    margin-left: 20px;
-    grid-area: logo;
-  }
-
-.grid-item:nth-child(2) {
-    grid-area: Home;
-  }
-
-.grid-item:nth-child(3) {
-    grid-area: About;
-  }
-
-.grid-item:nth-child(4) {
-    grid-area: Works;
-  }
-  
-.grid-item:nth-child(5) {
-  grid-area: Contact;
-}
-
-.grid-item:nth-child(7) {
-    grid-area: Download;
-  }
-
-  .last-item {
-    align-self: flex-end;
-  } */

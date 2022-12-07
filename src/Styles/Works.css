@@ -3,3 +3,45 @@
     margin: 0 8rem;
     scroll-margin-top: 200px;
 }
+
+.right-paragraph {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+  "s d"
+  "s d";
+}
+
+.left-paragraph {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+  "d s"
+  "d s";
+}
+
+.grid-slider {
+  grid-area: s;
+}
+
+.grid-descr {
+  grid-area: d;
+}
+
+@media (max-width: 1300px) {
+  .left-paragraph {
+    grid-template-areas: 
+    "d d"
+    "s s";
+  }
+
+  .right-paragraph {
+    grid-template-areas: 
+    "d d"
+    "s s";
+  }
+
+  .grid-slider {
+    align-self: center;
+  }
+}

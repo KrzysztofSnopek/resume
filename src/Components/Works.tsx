@@ -11,22 +11,47 @@ export function Works() {
   ]
 
   return (  
-    <div className='works'>Works
-      <div className="left-paragraph">
-        <div className='slider'>
-          <ImageSlides Slides={updatedSlides[0]} />
+    <div className='works'>
+      <h1>Works</h1>
+
+      <div className="grid-template">
+
+        <div className="left-paragraph stock-app">
+          <div className='slider grid-slider'>
+            <ImageSlides Slides={updatedSlides[0]} />
+          </div>
+          <div className="proj-description grid-descr">
+            <h2>Stock App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eum aperiam perferendis vero quae dolore, nihil totam fuga exercitationem aliquam, sunt, provident minus numquam illo consequuntur perspiciatis dolor atque sequi corrupti illum! Porro deleniti soluta unde officia numquam error alias, rerum mollitia, cumque placeat earum veniam eligendi sit dolor! Sit doloribus a consequatur nobis nisi facilis eum aut architecto hic quam? Quas atque quisquam, dolor ut laboriosam et, ipsa nihil cupiditate tempora voluptatibus hic voluptatum earum eius dolorum sunt. Ipsa tenetur aperiam placeat quos in, commodi maxime sunt ipsam incidunt vero repudiandae asperiores optio temporibus, veritatis magni, illo veniam amet!
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="right-paragraph">
-        <div className='slider'>
-          <ImageSlides Slides={updatedSlides[1]} />
+
+        <div className="right-paragraph api-app">
+          <div className='slider grid-slider'>
+            <ImageSlides Slides={updatedSlides[1]} />
+          </div>
+          <div className="proj-description grid-descr">
+            <h2>ToDo App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eum aperiam perferendis vero quae dolore, nihil totam fuga exercitationem aliquam, sunt, provident minus numquam illo consequuntur perspiciatis dolor atque sequi corrupti illum! Porro deleniti soluta unde officia numquam error alias, rerum mollitia, cumque placeat earum veniam eligendi sit dolor! Sit doloribus a consequatur nobis nisi facilis eum aut architecto hic quam? Quas atque quisquam, dolor ut laboriosam et, ipsa nihil cupiditate tempora voluptatibus hic voluptatum earum eius dolorum sunt. Ipsa tenetur aperiam placeat quos in, commodi maxime sunt ipsam incidunt vero repudiandae asperiores optio temporibus, veritatis magni, illo veniam amet!
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="left-paragraph">
-        3
-      </div>
-      <div className="right-paragraph">
-        4
+
+        <div className="left-paragraph todo-app">
+          <div className='slider grid-slider'>
+            <ImageSlides Slides={updatedSlides[2]} />
+          </div>
+          <div className="proj-description grid-descr">
+            <h2>Api Reading Api</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eum aperiam perferendis vero quae dolore, nihil totam fuga exercitationem aliquam, sunt, provident minus numquam illo consequuntur perspiciatis dolor atque sequi corrupti illum! Porro deleniti soluta unde officia numquam error alias, rerum mollitia, cumque placeat earum veniam eligendi sit dolor! Sit doloribus a consequatur nobis nisi facilis eum aut architecto hic quam? Quas atque quisquam, dolor ut laboriosam et, ipsa nihil cupiditate tempora voluptatibus hic voluptatum earum eius dolorum sunt. Ipsa tenetur aperiam placeat quos in, commodi maxime sunt ipsam incidunt vero repudiandae asperiores optio temporibus, veritatis magni, illo veniam amet!
+            </p>
+          </div> 
+        </div>
+
       </div>
     </div>
   )
