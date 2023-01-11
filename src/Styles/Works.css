@@ -1,7 +1,16 @@
 .works {
-    background-color: yellowgreen;
+    background-color: rgb(73, 73, 199);
     margin: 0 8rem;
     scroll-margin-top: 200px;
+    min-width: 760px;
+}
+
+.headline {
+  padding: 1rem;
+}
+
+.proj-description {
+  padding: 0 1rem;
 }
 
 .right-paragraph {
@@ -45,3 +54,30 @@
     align-self: center;
   }
 }
+
+.divider {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+div div .divider::after {
+  content: '';
+  height: 6px;
+  width: 40%;
+  background: linear-gradient(0.25turn, #7373db, #4949c7);
+  display: block;
+  position: relative;
+  top: 50%;
+}
+
+.divider::before {
+  content: '';
+  height: 6px;
+  width: 40%;
+  background: linear-gradient(0.25turn, #4949c7, #7373db);
+  position: relative;
+  top: 50%;
+  left: 0;
+}
+

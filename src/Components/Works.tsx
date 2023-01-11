@@ -12,7 +12,7 @@ export function Works() {
 
   return (  
     <div className='works'>
-      <h1>Works</h1>
+      <h1 className='headline'>Works</h1>
 
       <div className="grid-template">
 
@@ -28,6 +28,8 @@ export function Works() {
           </div>
         </div>
 
+        <div className="divider"></div>
+
         <div className="right-paragraph api-app">
           <div className='slider grid-slider'>
             <ImageSlides Slides={updatedSlides[1]} />
@@ -39,6 +41,8 @@ export function Works() {
             </p>
           </div>
         </div>
+
+        <div className="divider"></div>
 
         <div className="left-paragraph todo-app">
           <div className='slider grid-slider'>

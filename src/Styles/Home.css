@@ -1,6 +1,14 @@
 .home {
-    background-color: aqua;
-    height: 600px;
-    margin: 6rem 8rem 0 8rem;
+    height: 1600px;
+    margin: 0 8rem 0 8rem;
     scroll-margin-top: 100px;
+    min-width: 760px;
+
+    background-color: rgb(15, 15, 15);
+    background-image: url("../Images/Home_Slide.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
 }

@@ -1,5 +1,6 @@
 .contact {
-    background-color:blueviolet;
+    background-color:rgb(44, 44, 165);
     height: 600px;
     margin: 0 8rem 0 8rem;
+    min-width: 760px;
 }

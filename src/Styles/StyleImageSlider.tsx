@@ -6,7 +6,7 @@ export const imgContainer = {
 }
 
 export const slide = {
-  backgroundColor: 'yellow',
+  backgroundColor: 'rgb(44, 44, 165)',
   minHeight: '500px',
   height: '500px',
   maxWidth: '700px',
