@@ -1,7 +1,6 @@
 .app {
-    background-color: #191966;
+    background-color: rgb(25, 25, 25);
     background-image: url("../Images/moroccan-flower.png");
     background-blend-mode: multiply;
-    padding-bottom: 8rem;
     scroll-padding-top: 200px;
 }

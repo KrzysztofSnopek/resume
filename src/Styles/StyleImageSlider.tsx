@@ -31,4 +31,3 @@ export const arrow = {
   fontSize: '35px',
   padding: '0.5rem',
 }
-

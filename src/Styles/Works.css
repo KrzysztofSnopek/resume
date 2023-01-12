@@ -1,12 +1,12 @@
 .works {
   background-color: rgb(25, 25, 25);
-    margin: 0 8rem;
     scroll-margin-top: 200px;
     min-width: 760px;
 }
 
 .headline {
   padding: 1rem;
+  margin-top: 0;
 }
 
 .proj-description {
@@ -61,7 +61,7 @@
   padding: 2rem;
 }
 
-div div .divider::after {
+.divider::after {
   content: '';
   height: 6px;
   width: 40%;
