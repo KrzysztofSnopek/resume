@@ -20,7 +20,7 @@ export function Contact() {
 
          <div className='contact-list'>
           <div className='text main-text'>Github</div>
-          <div className='text secondary-text'>https://github.com/KrzysztofSnopek</div>
+          <a href='https://github.com/KrzysztofSnopek' className='text secondary-text'>https://github.com/KrzysztofSnopek</a>
         </div>              
       </div>
     </div>
