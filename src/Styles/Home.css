@@ -1,6 +1,6 @@
 .home {
     scroll-margin-top: 100px;
-    min-height: 90% vh;
+    min-height: 100% vh;
     background: linear-gradient(90deg, rgb(63, 72, 204) 75%, yellow 25%)
 }
 
@@ -54,6 +54,8 @@
 .home-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "text photo";
     gap: 20px;
 }
 
@@ -70,6 +72,9 @@
 
     .home-grid {
         grid-template-columns: 1fr;
+        grid-template-areas: 
+        "text"
+        "photo";
         gap: 10px;
     }
 }

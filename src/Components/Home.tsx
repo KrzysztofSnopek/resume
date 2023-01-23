@@ -6,7 +6,7 @@ export function Home() {
 
         <div className='greetings'>
           <div className="left-side intro-head">
-            Frontend Developer
+            Krzysztof Snopek
           </div>   
           <div className='intro-body'>
             I like to create solid apps and learn new technologies.
