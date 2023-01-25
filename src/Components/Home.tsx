@@ -22,8 +22,9 @@ export function Home() {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fugiat cumque expedita natus ipsa fugit vel sapiente. Impedit, qui ea.
         </div>
 
-        <div className="img-border">
-          <div className='photo-2'></div>          
+        <div className="img-wrapper">
+          {/* <div className='photo-2'></div>           */}
+          <img src={require('../Images/Home_Slide.png')} />
         </div>
       </div>
   )
