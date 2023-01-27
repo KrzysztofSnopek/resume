@@ -2,7 +2,7 @@ import '../Styles/Contact.css'
 
 export function Contact() {
   return (
-    <div className='contact contact-grid'>
+    <div className='contact contact-grid bg-outro pt-[20vh] md:pt-[30vh] lg:pt-[40vh]'>
       <div className='grid-col item-1 text main-text grid-headline'>GET IN TOUCH</div>
 
       <div className='grid-col item-2 text main-text'>Do you think I could fit in the team? Let's make it reality. Message me now!</div>        
