@@ -2,7 +2,7 @@
 
 export function About() {
   return (
-    <div className="bg-secondary text-primary grid lg:grid-cols-2 gap-5">
+    <div className="bg-secondary text-primary grid lg:grid-cols-2 gap-5 items-center">
         <div className='px-10 pt-10 font-bold text-2xl order-1 text-center'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia amet sunt quibusdam minus corporis distinctio nulla dignissimos laudantium, fugiat eos hic quasi vitae ab necessitatibus labore explicabo consectetur eligendi soluta veritatis nobis veniam. Porro assumenda eveniet laborum ratione ut et, soluta vero, rem delectus, est velit. Possimus eveniet praesentium magnam! Nihil doloribus explicabo consequuntur, exercitationem nostrum quis odit labore laborum placeat. Quasi, sunt ullam. Laboriosam minus perferendis fugit illo blanditiis excepturi quia maiores quae sapiente quod voluptate mollitia odit sint aliquam debitis obcaecati ex error exercitationem repellat velit earum sed, dolorum numquam autem? Cum repellendus a iste officiis porro.
         </div>

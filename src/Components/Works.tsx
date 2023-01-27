@@ -11,7 +11,7 @@ export function Works() {
   ]
 
   return (  
-    <div className='works'>
+    <div className='works bg-primary pt-[20vh] md:pt-[30vh] lg:pt-[40vh]'>
       <h1 className='headline'>Works</h1>
 
       <div className="grid-template">
