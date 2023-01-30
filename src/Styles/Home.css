@@ -30,7 +30,7 @@
 .img-wrapper {
     margin: none;
     grid-area: photo;
-    width: 40vw;
+    width: 35vw;
 }
 
 img {
@@ -76,7 +76,7 @@ img {
     }    
 
     .img-wrapper {
-        width: 100vw;
+        width: 95vw;
     }
 
     .greetings {
