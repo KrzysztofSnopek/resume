@@ -19,7 +19,6 @@ export const slide = {
   padding: '2rem 0'
 }
 export const slideImage = {
-  // height: '50*vh',
   width: '700px',
   minHeight: `calc(35vw)`,
   backgroundSize: 'contain',

@@ -21,6 +21,7 @@ nav {
     top: 0;
     width: 100%;
     min-width: 430px;
+    z-index: 1;
 }
 
 .section {
@@ -44,20 +45,20 @@ nav {
 .toggle-btn {
   position: absolute;
   top: 1.75rem;
-  right: 1rem;
+  right: 0;
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 75px;
+  height: 28px;
 }
 
 .toggle-btn .single-bar {
-  height: 2px;
+  height: 7px;
   width: 100%;
   background-color: aliceblue;
   border: 2px solid rgb(73, 73, 199);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 @media (max-width: 1215px) {
@@ -95,7 +96,6 @@ nav {
 
 @media (max-width: 430px) {
   .whole-app {
-    overflow-x: scroll;
     width: 430px
   }
 

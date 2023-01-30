@@ -1,5 +1,4 @@
 .contact {
-    background-color: rgb(30, 30, 30);
     background: url("../Images/wave2.svg");
     background-repeat: no-repeat;
 }
@@ -62,10 +61,4 @@
         "2"
         "3";
     }
-
-    /* item-3 {
-        grid-column: 1;
-        grid-row-start: 3;
-        grid-row: span 1;
-    } */
   }
