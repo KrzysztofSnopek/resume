@@ -23,7 +23,6 @@ export function Home() {
         </div>
 
         <div className="img-wrapper">
-          {/* <div className='photo-2'></div>           */}
           <img src={require('../Images/Home_Slide.png')} />
         </div>
       </div>
