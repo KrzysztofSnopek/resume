@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap");
 
 .app {
-  background-color: rgb(25, 25, 25);
-  background-image: url("../Images/moroccan-flower.png");
+  background-color: rgb(70, 79, 229);
+  /* background-image: url("../Images/moroccan-flower.png"); */
   background-blend-mode: multiply;
   scroll-padding-top: 200px;
+  min-width: 430px;
 }
