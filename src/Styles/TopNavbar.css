@@ -3,25 +3,25 @@
 } */
 
 nav {
-    font-family: 'Fredoka One', cursive;
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(
-      rgb(0 0 0 / 1),
-      rgb(0 0 0 / 0.5) 80%,
-      rgb(25 25 25 / 0)
-    );
-    color: aliceblue;
-    padding: 15px 0px;
-    font-weight: 800;
-    font-size: 1rem;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    min-width: 430px;
-    z-index: 1;
+  font-family: "Fredoka One", cursive;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    rgb(0 0 0 / 1),
+    rgb(0 0 0 / 0.5) 80%,
+    rgb(25 25 25 / 0)
+  );
+  color: aliceblue;
+  padding: 15px 0px;
+  font-weight: 800;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  min-width: 430px;
+  z-index: 1;
 }
 
 .section {
@@ -96,7 +96,7 @@ nav {
 
 @media (max-width: 430px) {
   .whole-app {
-    width: 430px
+    width: 430px;
   }
 
   .toggle-btn {
@@ -125,4 +125,3 @@ nav {
   color: aliceblue;
   text-decoration: none;
 }
-

@@ -17,17 +17,17 @@
 .right-paragraph {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: 
-  "s d"
-  "s d";
+  grid-template-areas:
+    "s d"
+    "s d";
 }
 
 .left-paragraph {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: 
-  "d s"
-  "d s";
+  grid-template-areas:
+    "d s"
+    "d s";
 }
 
 .grid-slider {
@@ -40,15 +40,15 @@
 
 @media (max-width: 1300px) {
   .left-paragraph {
-    grid-template-areas: 
-    "d d"
-    "s s";
+    grid-template-areas:
+      "d d"
+      "s s";
   }
 
   .right-paragraph {
-    grid-template-areas: 
-    "d d"
-    "s s";
+    grid-template-areas:
+      "d d"
+      "s s";
   }
 
   .grid-slider {
@@ -63,7 +63,7 @@
 }
 
 .divider::after {
-  content: '';
+  content: "";
   height: 6px;
   width: 40%;
   background: linear-gradient(0.25turn, rgb(44, 44, 165), rgb(63, 72, 204));
@@ -73,7 +73,7 @@
 }
 
 .divider::before {
-  content: '';
+  content: "";
   height: 6px;
   width: 40%;
   background: linear-gradient(0.25turn, rgb(63, 72, 204), rgb(44, 44, 165));
@@ -81,4 +81,3 @@
   top: 50%;
   left: 0;
 }
-

@@ -1,10 +1,9 @@
-import { TopNavbar } from './Components/TopNavbar'
-import './Styles/App.css'
-
+import { TopNavbar } from "./Components/TopNavbar";
+import "./Styles/App.css";
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <TopNavbar />
     </div>
   );

@@ -1,5 +1,10 @@
 import { useState } from "react";
-import { slideImage, imgContainer, arrow, slide } from "../Styles/StyleImageSlider";
+import {
+  slideImage,
+  imgContainer,
+  arrow,
+  slide,
+} from "../Styles/StyleImageSlider";
 
 const ImageSlider = ({ Slides }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,22 +24,22 @@ const ImageSlider = ({ Slides }: any) => {
   const slideBackground = {
     ...slideImage,
     backgroundImage: `url(${Slides[currentIndex]})`,
-  }
+  };
 
   return (
     <div style={imgContainer}>
-        <div style={slide} className="slide-styles">
-          <div style={arrow} onClick={goToPrevious}>
-            ❰
-          </div>
-
-          <div style={slideBackground}></div>
-
-          <div style={arrow} onClick={goToNext}>
-            ❱
-          </div>
+      <div style={slide} className="slide-styles">
+        <div style={arrow} onClick={goToPrevious}>
+          ❰
         </div>
-    </div>  
+
+        <div style={slideBackground}></div>
+
+        <div style={arrow} onClick={goToNext}>
+          ❱
+        </div>
+      </div>
+    </div>
   );
 };
 

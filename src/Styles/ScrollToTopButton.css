@@ -1,22 +1,22 @@
 .to-top-btn {
-    position: fixed;
-    bottom: 35px;
-    right: 35px;
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
 }
 
 .to-top-btn-style {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: 2px solid rgb(73, 73, 199);
-    background-color: aliceblue;
-    color: rgb(73, 73, 199);
-    cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(73, 73, 199);
+  background-color: aliceblue;
+  color: rgb(73, 73, 199);
+  cursor: pointer;
 }
 
 .to-top-btn-style:hover {
-    animation: none;
-    border: 2px solid aliceblue;
-    background-color: rgb(73, 73, 199);
-    color: aliceblue;
+  animation: none;
+  border: 2px solid aliceblue;
+  background-color: rgb(73, 73, 199);
+  color: aliceblue;
 }
