@@ -7,15 +7,18 @@ export function Contact() {
         GET IN TOUCH
       </div>
 
-      <div className="ml-2 border-l-4 border-l-lime-300 p-8 xsm:text-2xl md:text-4xl lg:order-3">
+      <div className="ml-2 max-w-sm border-l-4 border-l-lime-300 p-8 xsm:text-2xl md:text-4xl lg:order-3">
         Do you think I could fit in the team? Let's make it reality. Message me
         now!
       </div>
 
-      <div className="row-span-2 ml-2 border-l-4 border-l-lime-300 p-5 xsm:text-2xl lg:order-2">
-        <div className="p-3">
+      <div className="row-span-2 ml-2 max-w-sm border-l-4 border-l-lime-300 p-5 xsm:text-2xl lg:order-2">
+        <div className="max-w-sm p-3">
           <div>Email</div>
-          <div className="pr-2">krzysztof.snopek1@gmail.com</div>
+          <div className="max-w-sm pr-2 xsm:grid sm:flex">
+            <div>krzysztof.snopek1</div>
+            <div>@gmail.com</div>
+          </div>
         </div>
 
         <div className="p-3">
@@ -27,7 +30,7 @@ export function Contact() {
           <div>Github</div>
           <a
             href="https://github.com/KrzysztofSnopek"
-            className="git-link text-xl text-secondary sm:text-xl md:text-2xl"
+            className="git-link max-w-sm text-xl text-secondary sm:text-xl md:text-2xl"
           >
             https://github.com/KrzysztofSnopek
           </a>
