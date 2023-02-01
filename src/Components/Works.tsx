@@ -1,5 +1,7 @@
 import "../Styles/Works.css";
 import ImageSlides from "./ImageSlides";
+import "aos/dist/aos.css";
+import Aos from "aos";
 import {
   fetchApi1,
   stock1,
@@ -9,6 +11,7 @@ import {
   todo1,
   todo2,
 } from "./ImagesImport";
+import { useEffect } from "react";
 
 export function Works() {
   const updatedSlides: any[][] = [
@@ -16,6 +19,10 @@ export function Works() {
     [todo1, todo2],
     [fetchApi1],
   ];
+
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
 
   return (
     <div className="works bg-primary pt-[20vh] text-secondary md:pt-[30vh] lg:pt-[40vh]">
@@ -25,7 +32,7 @@ export function Works() {
 
       <div className="grid-template">
         <div className="left-paragraph stock-app">
-          <div className="slider grid-slider">
+          <div className="slider grid-slider" data-aos="fade-up">
             <ImageSlides Slides={updatedSlides[0]} />
           </div>
           <div className="proj-description grid-descr p-12">
@@ -50,7 +57,7 @@ export function Works() {
         <div className="divider"></div>
 
         <div className="right-paragraph api-app">
-          <div className="slider grid-slider">
+          <div className="slider grid-slider" data-aos="fade-up">
             <ImageSlides Slides={updatedSlides[1]} />
           </div>
           <div className="proj-description grid-descr p-12">
@@ -75,7 +82,7 @@ export function Works() {
         <div className="divider"></div>
 
         <div className="left-paragraph todo-app">
-          <div className="slider grid-slider">
+          <div className="slider grid-slider" data-aos="fade-up">
             <ImageSlides Slides={updatedSlides[2]} />
           </div>
           <div className="proj-description grid-descr p-12">
