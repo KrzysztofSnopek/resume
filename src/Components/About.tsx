@@ -1,6 +1,12 @@
-// import '../Styles/About.css'
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 export function About() {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <div className="grid items-center gap-5 bg-secondary text-primary lg:grid-cols-2">
       <div className="order-1 px-10 pt-10 text-center text-2xl font-bold">
@@ -17,7 +23,7 @@ export function About() {
         sed, dolorum numquam autem? Cum repellendus a iste officiis porro.
       </div>
 
-      <div className="order-2 px-10">
+      <div className="order-2 px-10" data-aos="fade-left">
         <img src={require("../Images/about_1.png")} />
       </div>
 
@@ -35,7 +41,10 @@ export function About() {
         unde. Veniam alias temporibus modi! Fugiat unde dolore aperiam?
       </div>
 
-      <div className="order-4 px-10 lg:order-3">
+      <div
+        className="order-4 self-center px-10 lg:order-3"
+        data-aos="fade-right"
+      >
         <img src={require("../Images/about_2.png")} />
       </div>
     </div>
