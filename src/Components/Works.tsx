@@ -18,17 +18,19 @@ export function Works() {
   ];
 
   return (
-    <div className="works bg-primary pt-[20vh] md:pt-[30vh] lg:pt-[40vh]">
-      <h1 className="headline">Works</h1>
+    <div className="works bg-primary pt-[20vh] text-secondary md:pt-[30vh] lg:pt-[40vh]">
+      <h1 className="bg-gradient-to-b from-blue-300 via-lime-200 to-blue-400 bg-clip-text p-12 pb-0 text-6xl font-extrabold text-transparent">
+        Projects
+      </h1>
 
       <div className="grid-template">
         <div className="left-paragraph stock-app">
           <div className="slider grid-slider">
             <ImageSlides Slides={updatedSlides[0]} />
           </div>
-          <div className="proj-description grid-descr">
-            <h2>Stock App</h2>
-            <p>
+          <div className="proj-description grid-descr p-12">
+            <h2 className="pb-4 text-4xl font-bold">Stock App</h2>
+            <p className="text-2xl font-bold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
               eum aperiam perferendis vero quae dolore, nihil totam fuga
               exercitationem aliquam, sunt, provident minus numquam illo
@@ -51,9 +53,9 @@ export function Works() {
           <div className="slider grid-slider">
             <ImageSlides Slides={updatedSlides[1]} />
           </div>
-          <div className="proj-description grid-descr">
-            <h2>ToDo App</h2>
-            <p>
+          <div className="proj-description grid-descr p-12">
+            <h2 className="pb-4 text-4xl font-bold">ToDo App</h2>
+            <p className="text-2xl font-bold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
               eum aperiam perferendis vero quae dolore, nihil totam fuga
               exercitationem aliquam, sunt, provident minus numquam illo
@@ -76,9 +78,9 @@ export function Works() {
           <div className="slider grid-slider">
             <ImageSlides Slides={updatedSlides[2]} />
           </div>
-          <div className="proj-description grid-descr">
-            <h2>Api Reading Api</h2>
-            <p>
+          <div className="proj-description grid-descr p-12">
+            <h2 className="pb-4 text-4xl font-bold">Api Reading Api</h2>
+            <p className="text-2xl font-bold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
               eum aperiam perferendis vero quae dolore, nihil totam fuga
               exercitationem aliquam, sunt, provident minus numquam illo
