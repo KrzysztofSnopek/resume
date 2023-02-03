@@ -41,7 +41,7 @@ export function TopNavbar() {
 
       <nav className={`navbar ${toggleClassName}`}>
         <div>
-          <a href="#" className="nav-non-btn">
+          <a href="#" className="nav-non-btn sm:text-transparent">
             Krzysztof Snopek
           </a>
         </div>

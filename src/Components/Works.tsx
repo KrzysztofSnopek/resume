@@ -21,7 +21,7 @@ export function Works() {
   ];
 
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({ duration: 2000, easing: "linear" });
   }, []);
 
   return (
