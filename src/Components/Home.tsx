@@ -1,5 +1,3 @@
-// import "../Styles/Home.css";
-
 export function Home() {
   return (
     <div className="grid gap-2 bg-gradient-to-b from-indigo-700 via-indigo-600 to-secondary xsm:grid-cols-1 xsm:p-4 md:grid-cols-2 md:p-16 lg:grid-cols-4">

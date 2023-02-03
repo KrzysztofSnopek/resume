@@ -6,6 +6,7 @@ import { Contact } from "./Contact";
 import { Home } from "./Home";
 import { ScrollToTopButton } from "./ScrollToTopButton";
 import { DownloadButton } from "./DownloadButton";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export function TopNavbar() {
   const homeRef = useRef(null);
@@ -19,6 +20,7 @@ export function TopNavbar() {
   }
 
   let toggleClassName = buttonClass ? "active" : "";
+  let toggleNavVisibility = buttonClass ? "hidden" : "";
 
   const scrollToComponent = (compRef: any) => {
     if (buttonClass === true) {
@@ -36,32 +38,41 @@ export function TopNavbar() {
   };
 
   return (
-    <div className="whole-app">
+    <div>
       <ScrollToTopButton />
 
-      <nav className={`navbar ${toggleClassName}`}>
-        <div>
-          <a href="#" className="nav-non-btn sm:text-transparent">
+      <nav
+        className={`sticky top-0 z-10 flex flex-col items-start justify-between bg-gradient-to-b from-navTop via-navMid to-navBot p-8 text-4xl font-bold xl:flex-row ${toggleClassName}`}
+      >
+        <div className="sm:self-center md:self-start">
+          <a
+            href="#"
+            className="bg-gradient-to-r from-indigo-400 via-blue-600 to-lime-300 bg-clip-text text-transparent sm:text-transparent"
+          >
             Krzysztof Snopek
           </a>
         </div>
 
-        <a className={`toggle-btn ${toggleClassName}`} onClick={handleClick}>
-          <span className="single-bar"></span>
-          <span className="single-bar"></span>
-          <span className="single-bar"></span>
+        <a
+          className={`absolute top-8 right-16 h-4 w-2 cursor-pointer text-lime-200 xl:hidden xl:justify-between ${toggleClassName}`}
+          onClick={handleClick}
+        >
+          <GiHamburgerMenu />
         </a>
 
-        <div className={`nav-links ${toggleClassName}`}>
-          <ul>
+        <div className={`${toggleNavVisibility} self-center xl:flex`}>
+          <ul className="flex flex-col pt-8 text-center xl:flex-row xl:pt-0">
             <li>
-              <a className="nav-btn" onClick={() => scrollToComponent(homeRef)}>
+              <a
+                className="cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-4 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:px-4"
+                onClick={() => scrollToComponent(homeRef)}
+              >
                 Home
               </a>
             </li>
             <li>
               <a
-                className="nav-btn"
+                className="cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-4 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:px-4"
                 onClick={() => scrollToComponent(aboutRef)}
               >
                 About
@@ -69,7 +80,7 @@ export function TopNavbar() {
             </li>
             <li>
               <a
-                className="nav-btn"
+                className="cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-4 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:px-4"
                 onClick={() => scrollToComponent(worksRef)}
               >
                 Works
@@ -77,7 +88,7 @@ export function TopNavbar() {
             </li>
             <li>
               <a
-                className="nav-btn"
+                className="cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-4 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:px-4"
                 onClick={() => scrollToComponent(contactRef)}
               >
                 Contact
@@ -91,16 +102,16 @@ export function TopNavbar() {
       </nav>
 
       <div className={`page-content ${toggleClassName}`}>
-        <div className="section" ref={homeRef}>
+        <div ref={homeRef}>
           <Home />
         </div>
-        <div className="section" ref={aboutRef}>
+        <div ref={aboutRef}>
           <About />
         </div>
-        <div className="section" ref={worksRef}>
+        <div ref={worksRef}>
           <Works />
         </div>
-        <div className="section" ref={contactRef}>
+        <div ref={contactRef}>
           <Contact />
         </div>
       </div>
