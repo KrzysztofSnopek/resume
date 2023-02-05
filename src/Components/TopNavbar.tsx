@@ -44,7 +44,7 @@ export function TopNavbar() {
       <nav
         className={`sticky top-0 z-10 flex flex-col items-start justify-between bg-gradient-to-b from-navTop via-navMid to-navBot p-8 text-4xl font-bold xl:flex-row ${toggleClassName}`}
       >
-        <div className="sm:self-center md:self-start">
+        <div className="self-start">
           <a
             href="#"
             className="bg-gradient-to-r from-indigo-400 via-blue-600 to-lime-300 bg-clip-text text-transparent sm:text-transparent"
@@ -60,11 +60,13 @@ export function TopNavbar() {
           <GiHamburgerMenu />
         </a>
 
-        <div className={`${toggleNavVisibility} self-center xl:flex`}>
-          <ul className="flex flex-col pt-8 text-center xl:flex-row xl:pt-0">
+        <div
+          className={`${toggleNavVisibility} w-full self-center xl:flex xl:w-auto`}
+        >
+          <ul className="flex w-full flex-col pt-8 text-center xl:w-auto xl:flex-row xl:pt-0">
             <li>
               <a
-                className="cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-4 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:px-4"
+                className="block w-full cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-1 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:inline xl:w-auto xl:py-4 xl:px-4"
                 onClick={() => scrollToComponent(homeRef)}
               >
                 Home
@@ -72,7 +74,7 @@ export function TopNavbar() {
             </li>
             <li>
               <a
-                className="cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-4 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:px-4"
+                className="block cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-1 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:inline xl:py-4 xl:px-4"
                 onClick={() => scrollToComponent(aboutRef)}
               >
                 About
@@ -80,7 +82,7 @@ export function TopNavbar() {
             </li>
             <li>
               <a
-                className="cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-4 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:px-4"
+                className="block cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-1 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:inline xl:py-4 xl:px-4"
                 onClick={() => scrollToComponent(worksRef)}
               >
                 Works
@@ -88,13 +90,13 @@ export function TopNavbar() {
             </li>
             <li>
               <a
-                className="cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-4 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:px-4"
+                className="block cursor-pointer bg-gradient-to-r from-indigo-400 via-blue-500 to-lime-200 bg-clip-text py-1 text-secondary text-transparent hover:from-lime-200 hover:via-lime-200 hover:to-indigo-700 xl:inline xl:py-4 xl:px-4"
                 onClick={() => scrollToComponent(contactRef)}
               >
                 Contact
               </a>
             </li>
-            <li>
+            <li className="w-full xl:w-auto">
               <DownloadButton />
             </li>
           </ul>
