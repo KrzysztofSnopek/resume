@@ -9,7 +9,7 @@ export function Contact() {
   }, []);
 
   return (
-    <div className="grid gap-6 bg-outro bg-contact-pattern bg-no-repeat p-4 pt-[20vh] font-bold text-secondary md:grid-cols-1 md:pt-[30vh] lg:grid-cols-2 lg:pt-[40vh]">
+    <div className="grid gap-6 bg-outro bg-contact-pattern bg-no-repeat p-4 pt-[20vh] pb-4 font-bold text-secondary md:grid-cols-1 md:pt-[30vh] lg:grid-cols-2 lg:pt-[40vh]">
       <div
         className="ml-2 border-l-4 border-l-lime-300 p-8 xsm:text-2xl md:text-4xl lg:order-1"
         data-aos="fade-down"

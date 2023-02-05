@@ -19,7 +19,6 @@ export function TopNavbar() {
     setButtonClass((buttonClass) => !buttonClass);
   }
 
-  let toggleClassName = buttonClass ? "active" : "";
   let toggleNavVisibility = buttonClass ? "hidden" : "";
 
   const scrollToComponent = (compRef: any) => {
@@ -28,12 +27,12 @@ export function TopNavbar() {
         top: compRef.current.offsetTop - 300,
         behavior: "smooth",
       });
-      setButtonClass(false);
     } else {
       window.scrollTo({
         top: compRef.current.offsetTop - 75,
         behavior: "smooth",
       });
+      setButtonClass(true);
     }
   };
 
@@ -41,9 +40,7 @@ export function TopNavbar() {
     <div>
       <ScrollToTopButton />
 
-      <nav
-        className={`sticky top-0 z-10 flex flex-col items-start justify-between bg-gradient-to-b from-navTop via-navMid to-navBot p-8 text-4xl font-bold xl:flex-row ${toggleClassName}`}
-      >
+      <nav className="sticky top-0 z-10 flex flex-col items-start justify-between bg-gradient-to-b from-navTop via-navMid to-navBot p-8 text-4xl font-bold xl:flex-row">
         <div className="self-start">
           <a
             href="#"
@@ -54,7 +51,7 @@ export function TopNavbar() {
         </div>
 
         <a
-          className={`absolute top-8 right-16 h-4 w-2 cursor-pointer text-lime-200 xl:hidden xl:justify-between ${toggleClassName}`}
+          className="absolute top-8 right-16 h-4 w-2 cursor-pointer text-lime-200 xl:hidden xl:justify-between"
           onClick={handleClick}
         >
           <GiHamburgerMenu />
@@ -103,7 +100,7 @@ export function TopNavbar() {
         </div>
       </nav>
 
-      <div className={`page-content ${toggleClassName}`}>
+      <div className="page-content">
         <div ref={homeRef}>
           <Home />
         </div>
