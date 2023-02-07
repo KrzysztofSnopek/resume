@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "../Styles/Contact.css";
 import "aos/dist/aos.css";
 import Aos from "aos";
 

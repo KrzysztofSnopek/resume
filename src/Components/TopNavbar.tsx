@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import "../Styles/TopNavbar.css";
 import { About } from "./About";
 import { Works } from "./Works";
 import { Contact } from "./Contact";
@@ -40,7 +39,7 @@ export function TopNavbar() {
     <div>
       <ScrollToTopButton />
 
-      <nav className="sticky top-0 z-10 flex flex-col items-start justify-between bg-gradient-to-b from-navTop via-navMid to-navBot p-8 text-4xl font-bold xl:flex-row">
+      <nav className="sticky top-0 z-10 flex flex-col items-start justify-between bg-gradient-to-b from-navTop via-navMid to-navBot p-8 font-fredoka text-4xl font-bold xl:flex-row">
         <div className="self-start">
           <a
             href="#"

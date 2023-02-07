@@ -21,6 +21,14 @@ module.exports = {
       spacing: {
         100: "100px",
       },
+      fontFamily: {
+        fredoka: [
+          "'Fredoka One', cursive",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+        ],
+      },
     },
   },
   plugins: [],
