@@ -29,6 +29,9 @@ module.exports = {
           "-apple-system",
         ],
       },
+      dropShadow: {
+        whiteShadow: "0 4px 3px rgba(255, 255, 255, 0.7)",
+      },
     },
   },
   plugins: [],

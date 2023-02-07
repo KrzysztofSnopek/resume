@@ -20,8 +20,8 @@ export function Contact() {
         className="ml-2 max-w-sm border-l-4 border-l-lime-300 p-8 xsm:text-2xl md:text-4xl lg:order-3"
         data-aos="fade-down"
       >
-        Do you think I could fit in the team? Let's make it reality. Message me
-        now!
+        Do you think I could fit into the team? Let's make it reality. Message
+        me now!
       </div>
 
       <div

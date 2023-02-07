@@ -10,17 +10,12 @@ export function About() {
   return (
     <div className="grid items-center gap-5 bg-secondary pt-12 text-primary lg:grid-cols-2">
       <div className="order-1 px-10 pt-10 text-center text-2xl font-bold">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
-        amet sunt quibusdam minus corporis distinctio nulla dignissimos
-        laudantium, fugiat eos hic quasi vitae ab necessitatibus labore
-        explicabo consectetur eligendi soluta veritatis nobis veniam. Porro
-        assumenda eveniet laborum ratione ut et, soluta vero, rem delectus, est
-        velit. Possimus eveniet praesentium magnam! Nihil doloribus explicabo
-        consequuntur, exercitationem nostrum quis odit labore laborum placeat.
-        Quasi, sunt ullam. Laboriosam minus perferendis fugit illo blanditiis
-        excepturi quia maiores quae sapiente quod voluptate mollitia odit sint
-        aliquam debitis obcaecati ex error exercitationem repellat velit earum
-        sed, dolorum numquam autem? Cum repellendus a iste officiis porro.
+        I have worked as a road designer for the last 3 years, but as this line
+        of work is extremely dependent on the global market and the availability
+        of building materials, I decided to move on and find a job in
+        programming. For the last half a year I have been learning React
+        framework and how to become a front-end developer. I am looking for an
+        opportunity to improve my skills at work.
       </div>
 
       <div className="order-2 px-10" data-aos="fade-up">

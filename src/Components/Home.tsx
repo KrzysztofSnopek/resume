@@ -12,22 +12,43 @@ export function Home() {
           </div>
 
           <div className="text-l order-2 bg-gradient-to-b bg-clip-text font-extrabold text-transparent xsm:col-span-2 xsm:from-gray-900 xsm:to-gray-900 md:col-span-1 md:from-gray-900 md:via-gray-800 md:to-indigo-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rem
-            numquam nihil asperiores maxime recusandae aut placeat.
-            Exercitationem officia minima nesciunt blanditiis omnis cumque
-            asperiores amet sapiente voluptatum quo autem quia enim obcaecati
-            beatae sint nihil, voluptatibus, accusantium neque odio repudiandae
-            esse quaerat tempora. Distinctio esse expedita nihil alias
-            voluptatum.
+            Since I started my journey into web development, I have learned
+            quite a few different technologies as I have been getting better.
+            Starting with basics like HTML and CSS, I got to know JavaScript,
+            ReactJS framework, and typescript later on. My improvement over time
+            can be seen on GitHub as I started using it after a few minor
+            projects. I've tried a few ways to style the app other than CSS -
+            mainly styled-components and for this app Tailwind. I've used
+            firebase to apply authorization to my app and deploy it.
+            <div className="flex flex-wrap py-4">
+              <img className="h-16 p-1" src={require("../Images/HTML.png")} />
+              <img className="h-16 p-1" src={require("../Images/CSS.png")} />
+              <img className="h-16 p-2" src={require("../Images/JS.png")} />
+              <img className="h-16 p-2" src={require("../Images/TS.png")} />
+              <img
+                className="h-16 p-2 drop-shadow-md"
+                src={require("../Images/reactjs.png")}
+              />
+              <img className="h-16 p-2" src={require("../Images/github.png")} />
+              <img
+                className="h-16 p-2"
+                src={require("../Images/bootstrap.png")}
+              />
+              <img
+                className="h-16 p-2 drop-shadow-whiteShadow"
+                src={require("../Images/tailwind.png")}
+              />
+            </div>
           </div>
           <div className="text-l order-3 bg-gradient-to-b from-gray-900 via-gray-800 to-indigo-900 bg-clip-text font-extrabold text-transparent xsm:col-span-2 md:col-span-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            vitae praesentium saepe in facilis pariatur, culpa unde veritatis,
-            perspiciatis distinctio, at nemo delectus. Libero quibusdam
-            accusantium dolorum nisi maxime sequi atque mollitia voluptas ea
-            maiores. Optio possimus accusamus sequi impedit, earum sunt eos
-            mollitia sapiente, facilis, quas corporis expedita reiciendis cumque
-            consequatur aspernatur dolores libero?
+            Since I started my journey into web development, I have learned
+            quite a few different technologies as I have been getting better.
+            Starting with basics like HTML and CSS, I got to know JavaScript,
+            ReactJS framework, and typescript later on. My improvement over time
+            can be seen on GitHub as I started using it after a few minor
+            projects. I've tried a few ways to style the app other than CSS -
+            mainly styled-components, bootstrap and for this app Tailwind. I've
+            used firebase to apply authorization to my app and deploy it.
           </div>
         </div>
       </div>
