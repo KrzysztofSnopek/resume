@@ -38,17 +38,25 @@ export function Home() {
                 className="h-16 p-2 drop-shadow-whiteShadow"
                 src={require("../Images/tailwind.png")}
               />
+              <img
+                className="h-16 p-2 drop-shadow-whiteShadow"
+                src={require("../Images/firebase.png")}
+              />
             </div>
           </div>
           <div className="text-l order-3 bg-gradient-to-b from-gray-900 via-gray-800 to-indigo-900 bg-clip-text font-extrabold text-transparent xsm:col-span-2 md:col-span-1">
-            Since I started my journey into web development, I have learned
-            quite a few different technologies as I have been getting better.
-            Starting with basics like HTML and CSS, I got to know JavaScript,
-            ReactJS framework, and typescript later on. My improvement over time
-            can be seen on GitHub as I started using it after a few minor
-            projects. I've tried a few ways to style the app other than CSS -
-            mainly styled-components, bootstrap and for this app Tailwind. I've
-            used firebase to apply authorization to my app and deploy it.
+            I decided that my next project would be created by using React
+            Query, which can help me simplify and manage my data fetching code,
+            and by implementing React state manager in the form of React state
+            manager - MobX. I have yet to decide on the form of the app, but it
+            will probably be a sort of chat application.
+            <div className="flex flex-wrap py-4">
+              <img className="h-16 p-2" src={require("../Images/mobx.png")} />
+              <img
+                className="h-16 p-2"
+                src={require("../Images/reactQuery.svg").default}
+              />
+            </div>
           </div>
         </div>
       </div>

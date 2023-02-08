@@ -13,7 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         "contact-pattern": 'url("./Images/wave2.svg")',
-        "home-pattern": 'url("./Images/Home_Slide.png")',
+        "home-pattern": 'url("./Images/reactQuery.svg")',
       },
       screens: {
         xsm: "200px",
@@ -30,7 +30,7 @@ module.exports = {
         ],
       },
       dropShadow: {
-        whiteShadow: "0 4px 3px rgba(255, 255, 255, 0.7)",
+        whiteShadow: "0 3px 2px rgba(255, 255, 255, 0.7)",
       },
     },
   },

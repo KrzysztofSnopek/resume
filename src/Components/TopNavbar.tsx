@@ -12,7 +12,7 @@ export function TopNavbar() {
   const aboutRef = useRef(null);
   const worksRef = useRef(null);
   const contactRef = useRef(null);
-  const [buttonClass, setButtonClass] = useState(false);
+  const [buttonClass, setButtonClass] = useState(true);
 
   function handleClick() {
     setButtonClass((buttonClass) => !buttonClass);
@@ -21,17 +21,17 @@ export function TopNavbar() {
   let toggleNavVisibility = buttonClass ? "hidden" : "";
 
   const scrollToComponent = (compRef: any) => {
-    if (buttonClass === true) {
+    if (buttonClass === false) {
       window.scrollTo({
-        top: compRef.current.offsetTop - 300,
-        behavior: "smooth",
-      });
-    } else {
-      window.scrollTo({
-        top: compRef.current.offsetTop - 75,
+        top: compRef.current.offsetTop - 375,
         behavior: "smooth",
       });
       setButtonClass(true);
+    } else {
+      window.scrollTo({
+        top: compRef.current.offsetTop - 105,
+        behavior: "smooth",
+      });
     }
   };
 
