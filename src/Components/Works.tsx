@@ -38,19 +38,19 @@ export function Works() {
           <div className="proj-description grid-descr p-12">
             <h2 className="pb-4 text-4xl font-bold">Stock App</h2>
             <p className="text-2xl font-bold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              eum aperiam perferendis vero quae dolore, nihil totam fuga
-              exercitationem aliquam, sunt, provident minus numquam illo
-              consequuntur perspiciatis dolor atque sequi corrupti illum! Porro
-              deleniti soluta unde officia numquam error alias, rerum mollitia,
-              cumque placeat earum veniam eligendi sit dolor! Sit doloribus a
-              consequatur nobis nisi facilis eum aut architecto hic quam? Quas
-              atque quisquam, dolor ut laboriosam et, ipsa nihil cupiditate
-              tempora voluptatibus hic voluptatum earum eius dolorum sunt. Ipsa
-              tenetur aperiam placeat quos in, commodi maxime sunt ipsam
-              incidunt vero repudiandae asperiores optio temporibus, veritatis
-              magni, illo veniam amet!
+              A React based app that allows the user to browse through the stock
+              values that are getting fetched from an api in real time. Styled
+              with bootstrap, the app allows the user to buy and sell shares at
+              their current prices with immediate update to the user's wallet.
+              User can log in to his account - the option was introduced with
+              the help of firebase.
             </p>
+            <a
+              href="https://github.com/KrzysztofSnopek"
+              className="git-link max-w-sm text-xl text-secondary sm:text-xl md:text-2xl"
+            >
+              Click me to check app online!
+            </a>
           </div>
         </div>
 
@@ -63,18 +63,12 @@ export function Works() {
           <div className="proj-description grid-descr p-12">
             <h2 className="pb-4 text-4xl font-bold">ToDo App</h2>
             <p className="text-2xl font-bold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              eum aperiam perferendis vero quae dolore, nihil totam fuga
-              exercitationem aliquam, sunt, provident minus numquam illo
-              consequuntur perspiciatis dolor atque sequi corrupti illum! Porro
-              deleniti soluta unde officia numquam error alias, rerum mollitia,
-              cumque placeat earum veniam eligendi sit dolor! Sit doloribus a
-              consequatur nobis nisi facilis eum aut architecto hic quam? Quas
-              atque quisquam, dolor ut laboriosam et, ipsa nihil cupiditate
-              tempora voluptatibus hic voluptatum earum eius dolorum sunt. Ipsa
-              tenetur aperiam placeat quos in, commodi maxime sunt ipsam
-              incidunt vero repudiandae asperiores optio temporibus, veritatis
-              magni, illo veniam amet!
+              A to-do list app created by using React. User is able to create
+              new list items, which after exceeding given amount will create new
+              pages created with react-paginate, that you can freely navigate
+              to. You have the ability to remove the items, which will be moved
+              to the other section. All information is saved in local storage.
+              The app was styled using styled components.
             </p>
           </div>
         </div>
@@ -86,20 +80,10 @@ export function Works() {
             <ImageSlides Slides={updatedSlides[2]} />
           </div>
           <div className="proj-description grid-descr p-12">
-            <h2 className="pb-4 text-4xl font-bold">Api Reading Api</h2>
+            <h2 className="pb-4 text-4xl font-bold">Api Reading App</h2>
             <p className="text-2xl font-bold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              eum aperiam perferendis vero quae dolore, nihil totam fuga
-              exercitationem aliquam, sunt, provident minus numquam illo
-              consequuntur perspiciatis dolor atque sequi corrupti illum! Porro
-              deleniti soluta unde officia numquam error alias, rerum mollitia,
-              cumque placeat earum veniam eligendi sit dolor! Sit doloribus a
-              consequatur nobis nisi facilis eum aut architecto hic quam? Quas
-              atque quisquam, dolor ut laboriosam et, ipsa nihil cupiditate
-              tempora voluptatibus hic voluptatum earum eius dolorum sunt. Ipsa
-              tenetur aperiam placeat quos in, commodi maxime sunt ipsam
-              incidunt vero repudiandae asperiores optio temporibus, veritatis
-              magni, illo veniam amet!
+              A simple app which focuses on fetching data, sorting and
+              displaying it in an intended way.
             </p>
           </div>
         </div>
