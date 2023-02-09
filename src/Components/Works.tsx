@@ -46,7 +46,7 @@ export function Works() {
               the help of firebase.
             </p>
             <a
-              href="https://github.com/KrzysztofSnopek"
+              href="https://stock-market-applic.web.app/"
               className="mt-8 self-center border-4 border-secondary bg-indigo-700 p-4 text-3xl font-bold hover:bg-secondary hover:text-primary"
             >
               Click me to check app online!
@@ -71,7 +71,7 @@ export function Works() {
               The app was styled using styled components.
             </p>
             <a
-              href="https://github.com/KrzysztofSnopek"
+              href="https://todo-list-applic.web.app/"
               className="mt-8 self-center border-4 border-secondary bg-indigo-700 p-4 text-3xl font-bold hover:bg-secondary hover:text-primary"
             >
               Click me to check app online!
@@ -92,7 +92,7 @@ export function Works() {
               displaying it in an intended way.
             </p>
             <a
-              href="https://github.com/KrzysztofSnopek"
+              href="https://api-fetching-app.web.app/"
               className="mt-8 self-center border-4 border-secondary bg-indigo-700 p-4 text-3xl font-bold hover:bg-secondary hover:text-primary"
             >
               Click me to check app online!
