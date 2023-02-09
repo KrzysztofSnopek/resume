@@ -35,7 +35,7 @@ export function Works() {
           <div className="slider grid-slider" data-aos="fade-up">
             <ImageSlides Slides={updatedSlides[0]} />
           </div>
-          <div className="proj-description grid-descr p-12">
+          <div className="proj-description grid-descr flex flex-col p-12">
             <h2 className="pb-4 text-4xl font-bold">Stock App</h2>
             <p className="text-2xl font-bold">
               A React based app that allows the user to browse through the stock
@@ -47,7 +47,7 @@ export function Works() {
             </p>
             <a
               href="https://github.com/KrzysztofSnopek"
-              className="git-link max-w-sm text-xl text-secondary sm:text-xl md:text-2xl"
+              className="mt-8 self-center border-4 border-secondary bg-indigo-700 p-4 text-3xl font-bold hover:bg-secondary hover:text-primary"
             >
               Click me to check app online!
             </a>
@@ -60,7 +60,7 @@ export function Works() {
           <div className="slider grid-slider" data-aos="fade-up">
             <ImageSlides Slides={updatedSlides[1]} />
           </div>
-          <div className="proj-description grid-descr p-12">
+          <div className="proj-description grid-descr flex flex-col p-12">
             <h2 className="pb-4 text-4xl font-bold">ToDo App</h2>
             <p className="text-2xl font-bold">
               A to-do list app created by using React. User is able to create
@@ -70,6 +70,12 @@ export function Works() {
               to the other section. All information is saved in local storage.
               The app was styled using styled components.
             </p>
+            <a
+              href="https://github.com/KrzysztofSnopek"
+              className="mt-8 self-center border-4 border-secondary bg-indigo-700 p-4 text-3xl font-bold hover:bg-secondary hover:text-primary"
+            >
+              Click me to check app online!
+            </a>
           </div>
         </div>
 
@@ -79,12 +85,18 @@ export function Works() {
           <div className="slider grid-slider" data-aos="fade-up">
             <ImageSlides Slides={updatedSlides[2]} />
           </div>
-          <div className="proj-description grid-descr p-12">
+          <div className="proj-description grid-descr flex flex-col p-12">
             <h2 className="pb-4 text-4xl font-bold">Api Reading App</h2>
             <p className="text-2xl font-bold">
               A simple app which focuses on fetching data, sorting and
               displaying it in an intended way.
             </p>
+            <a
+              href="https://github.com/KrzysztofSnopek"
+              className="mt-8 self-center border-4 border-secondary bg-indigo-700 p-4 text-3xl font-bold hover:bg-secondary hover:text-primary"
+            >
+              Click me to check app online!
+            </a>
           </div>
         </div>
       </div>
