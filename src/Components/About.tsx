@@ -10,12 +10,15 @@ export function About() {
   return (
     <div className="grid items-center gap-5 bg-secondary pt-12 text-primary lg:grid-cols-2">
       <div className="order-1 px-10 pt-10 text-center text-2xl font-bold">
-        I have worked as a road designer for the last 3 years, but as this line
-        of work is extremely dependent on the global market and the availability
-        of building materials, I decided to move on and find a job in
-        programming. For the last half a year I have been learning React
-        framework and how to become a front-end developer. I am looking for an
-        opportunity to improve my skills at work.
+        For the last half a year, I have been learning React framework and how
+        to become a front-end developer. I am focusing on learning ReactJS and
+        using typescript to create the front-end part of the apps. I think I
+        have the basic knowledge allowing me to start the work, which I am
+        looking forward to. Doing more projects on my own is for sure
+        satisfactory, but taking part in a live project with other experienced
+        programmers would exponentially propel my learning speed in the field of
+        web development! If you are looking for a fast learner with lots of
+        energy to improve himself, don't hesitate to contact me!
       </div>
 
       <div className="order-2 px-10" data-aos="fade-up">
@@ -23,17 +26,18 @@ export function About() {
       </div>
 
       <div className="order-3 px-10 text-center text-2xl font-bold lg:order-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-        aperiam quidem velit quam ab amet architecto necessitatibus nostrum
-        reprehenderit excepturi autem nam corporis in aspernatur, et
-        exercitationem, maiores optio, provident asperiores? Est perspiciatis
-        veritatis laudantium magnam, ea repellendus tempora illo numquam
-        accusantium voluptas eos dicta fugiat sint, cum natus excepturi possimus
-        alias inventore. Veniam nihil nam excepturi cumque fuga ex, a ipsa
-        fugiat fugit eos neque dolor repellat soluta hic eius facere. Quos
-        nostrum quia incidunt molestiae omnis possimus obcaecati quis commodi
-        vero illum non, aspernatur consequuntur sed dignissimos? Sequi, mollitia
-        unde. Veniam alias temporibus modi! Fugiat unde dolore aperiam?
+        <p>
+          I have worked as a road designer for the last 3 years. My duties
+          included creating technical documentation for roads, plazas and small
+          buildings; obtaining necessary permits from adequate departments.
+        </p>
+        <p>
+          My biggest achievement was completing a project of a tram line in
+          Sosnowiec in time. I was a team leader responsible for organising work
+          for other designers, organising meetings and keeping up with the
+          schedule. The road investment was completed last year and its' total
+          cost was over 90 million zlotys.
+        </p>
       </div>
 
       <div className="order-4 self-center px-10 lg:order-3" data-aos="fade-up">
