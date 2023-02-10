@@ -45,9 +45,10 @@ export function Contact() {
           <div>Github</div>
           <a
             href="https://github.com/KrzysztofSnopek"
-            className="git-link max-w-sm text-xl text-secondary sm:text-xl md:text-2xl"
+            className="git-link text-l max-w-sm pr-2 text-secondary xsm:grid sm:flex sm:text-xl md:text-2xl"
           >
-            https://github.com/KrzysztofSnopek
+            <div>https://github.com</div>
+            <div>/KrzysztofSnopek</div>
           </a>
         </div>
       </div>
