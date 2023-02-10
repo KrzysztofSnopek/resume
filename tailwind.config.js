@@ -14,6 +14,7 @@ module.exports = {
       backgroundImage: {
         "contact-pattern": 'url("./Images/wave2.svg")',
         "home-pattern": 'url("./Images/reactQuery.svg")',
+        "about-pattern": 'url("./Images/wave.svg")',
       },
       screens: {
         xsm: "200px",

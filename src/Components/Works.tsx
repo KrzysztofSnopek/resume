@@ -25,7 +25,7 @@ export function Works() {
   }, []);
 
   return (
-    <div className="works bg-primary pt-[20vh] text-secondary md:pt-[30vh] lg:pt-[40vh]">
+    <div className="works bg-primary text-secondary">
       <h1 className="bg-gradient-to-b from-blue-300 via-lime-200 to-blue-400 bg-clip-text p-12 pb-0 text-6xl font-extrabold text-transparent">
         Projects
       </h1>
