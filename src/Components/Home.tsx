@@ -48,8 +48,12 @@ export function Home() {
             I decided that my next project would be created by using React
             Query, which can help me simplify and manage my data fetching code,
             and by implementing React state manager in the form of React state
-            manager - MobX. I have yet to decide on the form of the app, but it
-            will probably be a sort of chat application.
+            manager - MobX. The app will be a picture gallery allowing users to
+            upload and rate photographs of others. For now I am using firestore
+            as my back-end, but the plan is to refactor the code later on and
+            use a database created by a friend. We want to create a joint
+            project to simulate a real life coding experience to push our git
+            skills to the limit.
             <div className="flex flex-wrap py-4">
               <img className="h-16 p-2" src={require("../Images/mobx.png")} />
               <img

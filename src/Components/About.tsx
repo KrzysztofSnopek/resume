@@ -49,7 +49,7 @@ export function About() {
           <img src={require("../Images/about_2.png")} />
         </div>
       </div>
-      <div className="bg-primary bg-about-pattern bg-no-repeat pb-[20vh] md:pb-[30vh] lg:pb-[40vh]"></div>
+      <div className="bg-primary bg-about-pattern bg-cover bg-no-repeat pb-[20vh] md:pb-[30vh] lg:pb-[40vh]"></div>
     </div>
   );
 }

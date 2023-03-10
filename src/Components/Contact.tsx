@@ -51,6 +51,16 @@ export function Contact() {
             <div>/KrzysztofSnopek</div>
           </a>
         </div>
+
+        <div className="p-3">
+          <div>LinkedIn</div>
+          <a
+            href="https://www.linkedin.com/in/krzysztof-snopek-49224a238/"
+            className="git-link text-l max-w-sm pr-2 text-secondary xsm:grid sm:flex sm:text-xl md:text-2xl"
+          >
+            <div>Check profile here!</div>
+          </a>
+        </div>
       </div>
     </div>
   );

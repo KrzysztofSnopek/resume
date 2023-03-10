@@ -45,6 +45,13 @@ export function Works() {
               User can log in to his account - the option was introduced with
               the help of firebase.
             </p>
+            <p className="text-2xl font-bold">
+              Unfortunately, as of now, project won't work as firebase does not
+              allow the usage of HTTP api that is used in the project due to
+              HTTP protocal not being secure. To check the full functionality
+              and how the main stock component works, it is necessary to start
+              the app with git.
+            </p>
             <a
               href="https://stock-market-applic.web.app/"
               className="mt-8 self-center border-4 border-secondary bg-indigo-700 p-4 text-3xl font-bold hover:bg-secondary hover:text-primary"
